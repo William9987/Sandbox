@@ -6,6 +6,5 @@ try:
 except TypeError:
     print ("Please enter a correct response")
 b=""
-for i in range(len(Name)):
-    if (i%2)==0:
-        b+=Name[i]
+Name_1 = Name[1::2]
+print (Name_1)
